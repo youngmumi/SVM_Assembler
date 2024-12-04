@@ -1,3 +1,6 @@
+#include "symtab.h"
+#include "main.h"
+
 int asc2int(char* ap) {
 	int l = strlen(ap), v;
 
