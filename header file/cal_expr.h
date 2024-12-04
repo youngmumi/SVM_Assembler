@@ -1,3 +1,5 @@
+#include "main.h"
+
 int cal_one_expr(char* expr) {
 	int expv, v1, v2, sign;
 	char* pp = NULL, * mp = NULL, * v2p = NULL;
