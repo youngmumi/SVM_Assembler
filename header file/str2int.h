@@ -1,3 +1,5 @@
+#include "main.h"
+
 int str2int(char* sp) {
 	int l = strlen(sp);
 	if (sp[l - 1] != 'h')
