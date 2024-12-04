@@ -1,3 +1,5 @@
+#include "main.h"
+
 void put_list_head() {
 	printf(" LNO	Loation		Label	Opcode	Operand		Object Code\n");
 	printf(" ---	-------		-----	------	-------		-----------\n");
