@@ -3,6 +3,8 @@
 #define INV_VAL (-0x7fffffff)
 #define RMD_OPR 0x7fffffff
 
+#include "main.h"
+
 typedef struct symtab {
 	char symbol[MAX_SLEN];
 	int value;
