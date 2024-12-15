@@ -2,6 +2,8 @@
 #include "optab.h"
 #include "cal_mnmo.h"
 
+#include "main.h"
+
 int asm_space(Dctab* dp) {
     int len;
 
