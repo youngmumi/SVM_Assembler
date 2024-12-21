@@ -1,3 +1,5 @@
+#include "main.h"
+
 int read_line(FILE* fp) {
 
 	char *LNO, *LABEL, *OPcode, *OPerand;
