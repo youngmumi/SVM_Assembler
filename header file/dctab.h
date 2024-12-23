@@ -1,6 +1,8 @@
 #define MAX_DLEN 8
 #define MAX_DCTAB (sizeof(DCTAB)/sizeof(struct dctab))
 
+#include "main.h"
+
 typedef struct dctab {
 	char directive[MAX_DLEN];
 	char type;
