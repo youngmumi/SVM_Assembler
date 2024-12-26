@@ -2,12 +2,18 @@
 #include "main.h"
 
 int asc2int(char* ap) {
-	int l = strlen(ap), v;
+    int result = 0;
 
-	if(ap[1 -1] !='\'')
-		return (INV_VAL);
-	
-	for (v = 0; *(ap + 1) != '\''; ap++)
-		v = (v << 8) | *(ap + 1);
-	return(v);
+    if (ap[0] != '\'') 
+        return INV_VAL;
+
+    for (ap++; *ap != '\'' && *ap != '\0'; ap++) {
+        result = (result << 8) | *ap; // ASCII 값 누적
+    }
+
+    if (*ap != '\'') 
+        return INV_VAL;
+
+    return result;
 }
+
