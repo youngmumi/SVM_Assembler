@@ -14,9 +14,9 @@
 #include "str2int.h"
 #include "symtab.h"
 
-char* null_LNO = "   ";
-char* null_LBL = "   ";
-char* null_OPR = "   ";
+extern char* null_LNO = "   ";
+extern char* null_LBL = "   ";
+extern char* null_OPR = "   ";
 
 
 void OnePassAssemble(char* sfile) {
